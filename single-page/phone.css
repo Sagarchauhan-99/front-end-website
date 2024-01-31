@@ -1,0 +1,46 @@
+/* navigation bar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 0.8rem;
+    padding:10px;
+    padding-bottom: 7px;
+}
+#home{
+    height: 350px;
+}
+#home::before{
+    height: 450px;
+}
+#home p{
+    font-size: 1rem;
+}
+.btn{
+    font-size: 12px;
+    padding:5px;
+}
+#service{
+    flex-direction: column;
+}
+
+
+
+
+#section{
+    flex-direction: column;
+}
+#client{
+    flex-wrap: wrap ;
+}
+#client img{
+    width: 85px;
+    padding: 1px 0px;
+    height: auto;
+}
+h1.primary{
+    font-size: 25px;
+}
+h2.secondary{
+    font-size: 18px;
+}

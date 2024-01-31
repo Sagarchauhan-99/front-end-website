@@ -1,0 +1,209 @@
+/* css reset */
+*{ padding:0;
+    margin: 0;
+}
+/* navbar  */
+
+#navbar img{
+    height: 50px;
+    width: 50px;
+}
+#logo{
+    margin: 4px 25px;
+}
+#navbar{
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+ #navbar ul{
+    display: flex;
+    /* display flex row me convert kr dega */
+    font-family: 'Quicksand', sans-serif;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+ #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+ }
+
+
+                         /* home section */
+#home{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2px 20px;
+    height: 491px;
+    justify-content: center;
+     align-items: center;
+font-family: 'Urbanist', sans-serif;
+font-weight:bold;
+}
+#home::before{
+    content:"";
+    background:url(plant.jpg)no-repeat center center/cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 79%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.80;
+   
+}
+#home p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+
+}
+                            /* utility classes */
+h1.primary{
+font-size: 2.8rem;
+padding: 12px;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-weight: bolder;
+}
+h2.secondary{
+font-size: 1.7rem;
+padding: 12px;
+font-family: 'Urbanist', sans-serif;
+font-weight: bolder;
+}
+
+
+.btn{
+    padding: 4px 14px;
+    background-color: rgb(44, 70, 4);
+    color: aliceblue;
+    margin: 12px;
+    font-size: 1.1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+                                          /* service section */
+#service{
+    margin: 10px;
+    display: flex;
+
+}
+#service .box{
+    border: 2px solid rgb(11, 247, 11);
+    text-align: center;
+    padding: 6px;
+    margin: 7px;
+    border-radius: 23px; 
+    background-color: rgb(241, 243, 238);
+
+}
+#service .box p{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+
+#service .box img{
+width: 150px;
+display: block;
+margin: auto;
+}
+
+
+                                       /* client section */
+
+
+
+
+#client-section{
+    position: relative;
+}
+#client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-item{
+padding: 50px;
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background:url(fuull.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 99%;
+    z-index: -1;
+    opacity: 0.80;
+}
+
+
+/* contact us  */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.50;
+    background: url(email-6370595_1280.jpg)no-repeat center center/cover;
+
+}
+
+#contact-box input,#contact-box textarea{
+    width: 100%;
+    padding:0.5rem;
+}
+#contact-box form{
+    width: 50%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    padding-bottom: 34px;
+}
+footer{
+    text-align: center;
+    background:black;
+    color: white;
+    padding: 10px 30px;
+}

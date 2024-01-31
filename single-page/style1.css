@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    min-height:100vh;
+    background: linear-gradient(120deg,aqua,rgb(4, 4, 56));
+    padding: 10px;
+
+}
+
+.todolist{
+    width:100%;
+    max-width:540px;
+    background: white;
+    margin:100px auto 20px;
+    border-radius: 20px;
+    padding: 40px 30px 50px;
+    
+}
+.todolist h2{
+color: blue;
+align-items: center;
+margin-bottom: 20px;
+}
+.todolist img{
+    width: 50px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: pink;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
